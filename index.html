@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Family Restaurant</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="banner-container">
+            <h2>Welcome Family Members To Our Restaurant</h2>
+            <p>Have Delicious food in a cozy atmosphere</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <img src="Restaurant-images/dinner.png" alt="Menu Item 1">
+                <h3>Menu Item 1</h3>
+                <p>Description of menu item 1.</p>
+                <span class="price">$10.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="Restaurant-images/lunch.png"Menu Item 2">
+                <h3>Menu Item 2</h3>
+                <p>Description of menu item 2.</p>
+                <span class="price">$12.99</span>
+            </div>
+            <!-- Add more menu items as needed -->
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>It is a place where Family Members spend time together with An exciting facilities like an eating establishment that serves relatively simple food at reasonable prices, and welcomes children as well as adults.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to make a reservation? Contact us below:</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Family Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
